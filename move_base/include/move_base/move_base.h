@@ -60,7 +60,7 @@
 #include "move_base/MoveBaseConfig.h"
 
 namespace move_base {
-  //typedefs to help us out with the action server so that we don't hace to type so much
+  //typedefs to help us out with the action server so that we don't have to type so much
   typedef actionlib::SimpleActionServer<move_base_msgs::MoveBaseAction> MoveBaseActionServer;
 
   enum MoveBaseState {
